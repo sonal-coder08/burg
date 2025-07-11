@@ -1,0 +1,100 @@
+body{
+  color: white;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 20px;
+  font-size: 25px;
+}
+.search-select{
+  background-color: transparent;
+  border: none;
+ color: white;
+  font-size: large;
+}    
+.menu{
+  display: flex;
+  padding-top: 90px;
+  margin: 30px;
+  justify-content:space-around ;
+  cursor: pointer;
+}
+
+.img1{
+  transition: all 0.5s ease-in-out;
+}
+.img1:hover{
+  transform: scale(1.2);
+}
+.img2{
+  transition: all 0.5s ease-in-out;
+}
+.img2:hover{
+  transform: scale(1.2);
+}
+.img3{
+  transition: all 0.5s ease-in-out;
+}
+.img3:hover{
+  transform: scale(1.2);
+}
+.img4{
+  transition: all 0.5s ease-in-out;
+}
+.img4:hover{
+  transform: scale(1.2);
+}
+.img5{
+  transition: all 0.5s ease-in-out;
+}
+.img5:hover{
+  transform: scale(1.2);
+}
+.img6{
+  transition: all 0.5s ease-in-out;
+}
+.img6:hover{
+  transform: scale(1.2);
+}
+.img7{
+  transition: all 0.5s ease-in-out;
+}
+.img7:hover{
+  transform: scale(1.2);
+}
+.img8{
+  transition: all 0.5s ease-in-out;
+}
+.img8:hover{
+  transform: scale(1.2);
+}
+  
+
+  .menu:hover .blocks{
+  filter: grayscale(0.5) blur(5px);
+  }
+  .menu:hover .blocks:hover{
+    filter:none;
+  }
+.sub-menu{
+padding: 25px;
+margin-bottom: 2px;
+}
+button{
+  height: 40px;
+  width: 220px;
+  color: white;
+  font-weight: bolder;
+  background-color: red;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+button:hover{
+transform: scale(1.2);
+}

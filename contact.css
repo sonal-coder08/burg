@@ -1,0 +1,59 @@
+body{
+    background-image: url('./gir.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.navbar{
+    height: 100px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+  font-size: larger;
+  position: relative;
+      top: 20px;
+}
+.search-select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: large;
+  }
+.container{
+  padding: 30px;
+  margin-left: 100px;
+  width: 450px;
+  height: 550px;
+  border-radius: 30px;
+  border: 2px solid white;
+  
+  /*animation-name: contact;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;*/
+}
+/*@keyframes contact{
+  from{
+    background-color:black;
+    width: 0px;
+  }
+  to{
+        width:450px;
+  }
+}*/
+label{
+  font-size:x-large;
+  display: block;
+  margin-bottom: 10px;
+}
+input{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+h1{
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40PX;
+}
